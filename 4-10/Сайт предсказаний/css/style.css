@@ -1,0 +1,32 @@
+#parent {
+    text-align: center;
+}
+#parent > * {
+    margin-bottom: 10px;
+}
+
+#timer {
+    font-size: 18px;
+}
+#text {
+    font-size: 17px;
+    font-style: italic;
+    color: black; /* По умолчанию чёрный цвет текста */
+}
+
+.bad {
+    color: red; /* Красный цвет для плохих предсказаний */
+}
+
+.good {
+    color: green; /* Зелёный цвет для хороших предсказаний */
+}
+
+button {
+    padding: 5px 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+button:not(.active) {
+    display: none;
+}

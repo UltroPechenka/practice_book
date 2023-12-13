@@ -1,0 +1,19 @@
+.keyboard {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.key {
+    padding: 10px;
+    text-align: center;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+input {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Гороскоп</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="horoscope-container">
+    <label for="inputDate">Введите дату рождения:</label>
+    <input type="date" id="inputDate">
+
+    <div class="sign-selection">
+      <input type="radio" name="sign" id="aries" value="Овен" checked>
+      <label for="aries">Овен</label>
+    </div>
+
+    <div class="day-selection">
+      <input type="radio" name="day" id="todayRadio" value="today" checked>
+      <label for="todayRadio">Сегодня</label>
+
+      <input type="radio" name="day" id="tomorrowRadio" value="tomorrow">
+      <label for="tomorrowRadio">Завтра</label>
+
+      <input type="radio" name="day" id="afterTomorrowRadio" value="afterTomorrow">
+      <label for="afterTomorrowRadio">Послезавтра</label>
+    </div>
+
+    <button onclick="showHoroscope()">Получить гороскоп</button>
+
+    <div id="horoscopeResult"></div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
