@@ -1,0 +1,18 @@
+.input {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    max-width: 100px;
+    width: 100%;
+}
+
+#list span {
+	margin-right: 5px;
+}
+#list .remove, #list .mark {
+	color: blue;
+	cursor: pointer;
+}
+#list .remove:hover, #list .mark:hover {
+	text-decoration: underline;
+}
